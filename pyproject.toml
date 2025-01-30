@@ -1,6 +1,6 @@
 [project]
 name = "ctrlesc"
-version = "0.1"
+version = "0.1.1"
 authors = [
     { name="mmjakub", email="62809364+mmjakub@users.noreply.github.com" },
 ]
@@ -17,7 +17,7 @@ Homepage = "https://github.com/mmjakub/ctrlesc"
 Issues = "https://github.com/mmjakub/ctrlesc/issues"
 
 [project.scripts]
-ctrlesc = "ctrlesc:main"
+ctrlesc = "ctrlesc.main:main"
 
 [build-system]
 requires = ["hatchling"]
